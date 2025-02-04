@@ -46,7 +46,8 @@ pico_enable_stdio_usb(Semaforo 0)
 
 # Add the standard library to the build
 target_link_libraries(Semaforo
-        pico_stdlib)
+        pico_stdlib
+        hardware_timer)
 
 # Add the standard include files to the build
 target_include_directories(Semaforo PRIVATE
