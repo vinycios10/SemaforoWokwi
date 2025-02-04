@@ -35,4 +35,4 @@ Este ciclo se repete indefinidamente.
 
 ## Código
 
-Veja o código-fonte no arquivo `semaforo.c`.
+Veja o código-fonte no arquivo `Semaforo.c`.
