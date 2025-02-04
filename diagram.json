@@ -56,9 +56,9 @@
     [ "led1:A", "r1:1", "green", [ "v0" ] ],
     [ "led3:A", "r3:1", "green", [ "v0" ] ],
     [ "led2:A", "r2:1", "green", [ "v0", "h28.8" ] ],
-    [ "pico:GP11", "r1:2", "green", [ "h-28.8", "v-28.8" ] ],
     [ "r2:2", "pico:GP12", "green", [ "v0" ] ],
-    [ "pico:GP13", "r3:2", "green", [ "h-28.8", "v28.84" ] ]
+    [ "r1:2", "pico:GP13", "green", [ "v0", "h18", "v48" ] ],
+    [ "r3:2", "pico:GP11", "green", [ "v0", "h27.6", "v-48" ] ]
   ],
   "dependencies": {}
 }

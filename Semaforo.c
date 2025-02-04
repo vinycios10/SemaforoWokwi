@@ -3,9 +3,9 @@
 #include "hardware/timer.h"
 
 
-const uint led_pin_red  = 11;
+const uint led_pin_red  = 13;
 const uint led_pin_yellow = 12;
-const uint led_pin_green  = 13;
+const uint led_pin_green  = 11;
 
 uint8_t led_atual;
 
